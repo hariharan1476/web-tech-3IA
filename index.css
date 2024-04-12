@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.a1{
+    width: 100%; 
+    height: 10vh;
+    background-color: #3a3a3a;
+    color: whitesmoke;
+    font-size: 50px;
+    opacity: 0.5;
+    text-transform: uppercase;
+
+}
+.a {
+    width: 100%; 
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.a2 {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.a22 {
+    width: 60%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px; 
+    background: #3a3a3a;
+    opacity: 0.4;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #fff4f456;
+    
+}
+
+.a22:hover{
+    box-shadow: 0px 20px 40px #fffbfb56;
+}
+
+.a22:hover{
+    border-bottom: px solid #FFFDD0;
+    
+}
+.a22 > h1 { 
+    color: rgb(255, 249, 249);
+    font-weight: 800;
+    margin: 0;
+}
+.tbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.tbox > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color: #929292de;
+    font-size: 12pt;
+    box-shadow: 0px 4px 20px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.tbox > input:hover{
+    box-shadow: 0px 10px 4px #dad2d256;
+}
+.tbox > label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+
+.tbox > input::placeholder:hover {
+    color: #6b6f6f94;
+}
+.b1 {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #F4BC1C;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.b1:hover{
+    background:#F4BC1C;
+    color: white;
+
+}
+.shake-password {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+#a3{
+    position: absolute;
+    width: 100%; 
+    height: 100px;
+    top: 0;
+    left: 0%;
+    opacity: 0.4;
+    background:#3a3a3a;
+}

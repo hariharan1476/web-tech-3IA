@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: black;
+}
+.a3{
+    position: absolute;
+    width: 86%; 
+    height: 100px;
+    top: 0;
+    left: 14%;
+    opacity: 0.3;
+    background:#3a3a3a;
+}
+.a33{
+    position: absolute;
+    width: 14%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    background:#3a3a3a;
+    border-right: 3px solid rgb(0, 0, 0);
+}
+.a3>#slogo{
+    float: right;
+}
+#backb{
+    position: absolute;
+}
+
+.widget{
+    list-style-type: none;
+}
+.widget li { 
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.widget li a {
+    text-decoration: none; 
+    color: #F4BC1C;
+}
+.widget li a:hover{
+    color: #fecd49;
+    padding: 25px 50px;
+    font-size:100%;
+}
+a:link,a:visited{
+    text-align: center;
+}
+
+.l1{
+    position: absolute;
+    width: 86%;
+    height: 100%;
+    left: 14%;
+    top: 100px;
+    background:whitesmoke;
+}
+.aal{
+    border-bottom: 3px solid black;
+
+}
